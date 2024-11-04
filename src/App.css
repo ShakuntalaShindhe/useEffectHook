@@ -1,0 +1,42 @@
+.conatainer{
+  padding: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.product{
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: purple;
+  text-align: center;
+}
+.card-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.image{
+  width: 90%;
+  height: 400px;
+  object-fit: cover;
+}
+.card{
+  background-color: rgb(182, 249, 249);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.info{
+  padding: 20px;
+  text-align: center;
+}
+.title{
+  font-size: 1.5rem;
+  color: chocolate;
+}
+.desc{
+  color: #333;
+}
+.price{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #655353;
+}
